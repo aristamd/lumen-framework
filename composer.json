@@ -1,5 +1,5 @@
 {
-    "name": "laravel/lumen-framework",
+    "name": "aristamd/lumen-framework",
     "description": "The Laravel Lumen Framework.",
     "keywords": ["framework", "laravel", "lumen"],
     "license": "MIT",
@@ -10,12 +10,16 @@
     },
     "authors": [
         {
+            "name": "Michael Foster",
+            "email": "mfoster@aristamd.com"
+        },
+        {
             "name": "Taylor Otwell",
             "email": "taylorotwell@gmail.com"
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.2.5|^8.0",
         "illuminate/auth": "^7.0",
         "illuminate/broadcasting": "^7.0",
         "illuminate/bus": "^7.0",
